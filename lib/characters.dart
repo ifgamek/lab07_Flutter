@@ -25,7 +25,7 @@ class Mage extends Character{
   Mage({required String name}):
   mana = 60,
   maxMana = 60,
-  super(name:name, hp:70)
+  super(name:name, hp:70);
 
   @override
   int attack(){

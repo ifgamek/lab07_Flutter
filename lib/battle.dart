@@ -36,7 +36,7 @@ void battle(Character player, Character enemy){
   printSeparator();
   print('');
   if (player.isAlive){print('� ${player.name}');}
-  else {print('� ${enemy.name} победил')}
+  else {print('� ${enemy.name} победил');}
   printSeparator();
   
 }
